@@ -24,7 +24,7 @@ Example code:
 >>> from sanetime import time
 >>> from webex.account import Account
 >>> from webex.event import Event
->>> dict_conf = dict(username='testredomino', password='12345', site_name='apidemoeu')
+>>> dict_conf = dict(username='testaccount', password='password', site_name='apidemoeu')
 >>> account = Account(**dict_conf)
 >>> now = time(s=time().s, tz='America/New_York')
 >>> starts_at = now + 15*60*10**6
